@@ -1,42 +1,40 @@
 // Techmatics Images
-import Francesa from "../../assets/Orator Banners/Francesca.webp"
-import Christophe from "../../assets/Orator Banners/Christophe.png"
-import Van from "../../assets/Orator Banners/Douwe.png"
-import Alje from "../../assets/Orator Banners/Alejandro.jpg"
-import vladimirGChigrinov from "../../assets/Pannel Members/e4.jpg"
-import jiashengZhu from "../../assets/Pannel Members/e7.jpg"
-import penouo from "../../assets/Pannel Members/Paneuo.jpg"
+import jhenny from "../../assets/Orator Banners/Jenny Lindblom.jpg"
+import Kheong from "../../assets/Orator Banners/Chow Kheong Keat Gregory.jpg"
+import simon from "../../assets/Orator Banners/Simon Vrecar.jpg"
+import Zajc from "../../assets/Orator Banners/Marjana Zajc.jpg"
+
   export const orators = [
     {
-      id: "andreas-m-papas",
-      image: Francesa,
-      name: "Francesca Bottacini",
-      from: "Ireland",
-      about: "APC Microbiome Ireland",
+      id: "Jenny Lindblom",
+      image: jhenny,
+      name: "Jenny Lindblom",
+      from: "Sweden",
+      about: "Lulea University of Technology",
       // link: "/techmatics-orators/siti-rahman"
     },
     {
-      id: "maria-richards-brown",
-      image: Christophe,
-      name: "Christophe Lacroix",
-      from: "Switzerland",
-      about: "ETH Zurich",
+      id: "Chow Kheong Keat Gregory",
+      image: Kheong,
+      name: "Chow Kheong Keat Gregory",
+      from: "Singapore",
+      about: "Ngee Ann Polytechnic",
       // link: "/techmatics-orators/abdullah-aydin",
     },
     {
       id: "rassa-pegahi",
-      image: Van,
-      name: "Douwe Van Sinderen",
-      from: "Ireland",
-      about: "University College Cork",
+      image: simon,
+      name: "Simon Vrecar",
+      from: "Slovenia",
+      about: "GAUDEAMUS, Training, Consulting and Research",
       // link: "/techmatics-orators/janani-varun",
     },
     {
       id: "anna-w-sobanska",
-      image:Alje,
-      name: "Alejandro Reyes",
-      from: "Colombia",
-      about: "University of Los Andes",
+      image: Zajc,
+      name: "Marjana Zajc",
+      from: "Slovenia",
+      about: "Geological Survey of Slovenia",
       // link: "/techmatics-orators/abdeen-omer",
     },
     // Second row

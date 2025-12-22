@@ -1,41 +1,41 @@
 
 // images
-import Paulo from "../../assets/Pannel Members/Paul-Cotter.webp";
-import Koji from "../../assets/Pannel Members/Koji.jpg";
-import Sarah from "../../assets/Pannel Members/Sarah.png";
-import Justin from "../../assets/Pannel Members/Justin.jpg";
+import Ali  from "../../assets/Pannel Members/Alireza Ghasempour.webp";
+import Liu from "../../assets/Pannel Members/Liu Xiangming.webp";
+import Vidya from "../../assets/Pannel Members/Vidya Padmakumar.webp";
+import Gita from "../../assets/Pannel Members/Gita Naseri.webp";
 
 export const panel_members_about = [
   {
     id: "Paul",
-    image: Paulo,
-    name: "Paul Cotter",
-    from: "Ireland",
-    about: "Teagasc Food Research Centre ",
+    image: Ali,
+    name: "Alireza Ghasempour",
+    from: "USA",
+    about: "Utah State University ",
     // link: "/executive-panel-members/velimir",
   },
   {
     id: "Koji Nomura ",
-    image: Koji,
-    name: "Koji Nomura" ,
-    from: "Japan",
-    about: " University of Tokyo ",
+    image: Liu,
+    name: "Liu Xiangming" ,
+    from: "China",
+    about: "South-Central University for Nationalities",
     // link: "/executive-panel-members/Raenu",
   },
   {
     id: "Rd",
-    image:Sarah,
-    name: "Sarah Lebeer",
-    from: "Belgium",
-    about: "University of Antwerp",
+    image:Vidya,
+    name: "Vidya Padmakumar",
+    from: "Canada",
+    about: "EcoDiversity Research Centre",
     // link: "/executive-panel-members/Rd",
   },
   {
     id: "Paulo",
-    image: Justin,
-    name: "Justin L. Sonnenburg",
-    from: "USA",
-    about: "Stanford University",
+    image: Gita,
+    name: "Gita Naseri",
+    from: "Germany",
+    about: "Max Planck Unit for the Science of Pathogens",
     // link: "/executive-panel-members/Paulo",
   },
   // Second row
