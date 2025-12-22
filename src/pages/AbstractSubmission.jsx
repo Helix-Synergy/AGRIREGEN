@@ -97,28 +97,29 @@ const AbstractSubmission = () => {
     setLoading(false);
   };
 
-const presentationOptions = [
- "Microbial Ecology of Food Systems",
-  "Microbiome Sequencing & Metagenomics for Food Research",
-"Host–Microbe Interactions Influenced by Diet",
- "Metabolites, Enzymes & Nutrient Transformations",
-  "Microbial Dynamics in Food Safety",
-"Microbiome-Based Strategies for Food Spoilage Control",
- "Biopreservation-Microbes & Natural Antimicrobials",
- "Microbial Ecology of Food Systems - From Farm to Fork" ,
-  "Gut–Food Axis",
-  "Personalized Nutrition",
-  "Soil & Plant Microbiomes",
-  "Sustainable Agriculture & Food Production",
-  "Processing Technologies on Food Microbial Communities",
-  "Circular Bioeconomy & Waste Valorization",
-  "Foodborne Microbial Risks",
-  "Prebiotics, Synbiotics & Postbiotics",
-  "Fermented Foods - Health Benefits & Innovation",
-  "Ethical & Commercial Considerations in Microbiome",
-  "Microbiome Engineering",
-  "Quorum Sensing",
-];
+const presentationOptions =[
+  "Paradigms of Regenerative Agriculture",
+  "Carbon, Microbes & Nutrient Cycling",
+  "Agroecology",
+  "Biodiversity",
+  "Precision Agriculture for Regenerative Farming",
+  "AI, Remote Sensing & GIS for Soil, Crops",
+  "IoT & Sensor Networks for Regenerative Farming",
+  "Robotics & Automation for Low-Impact Farming",
+  "Carbon Sequestration",
+  "MRV Tools & Climate-Smart Agriculture",
+  "Biochar, Composting & Biological Amendments",
+  "Micro-Catchments, Drip Optimisations & Hydrology Mapping",
+  "Plant–Microbiome Engineering",
+  "Biofertilisers, Biostimulants & Mycorrhizal Innovations",
+  "Regenerative Pest Management",
+  "Regenerative Horticulture, Agroforestry & Polyculture Systems",
+  "Livestock Integration, Holistic Grazing & Manure Circularity",
+  "Waste-to-Value Innovations in Farms",
+  "Regenerative Supply Chains & Market Incentives",
+  "Certification Frameworks for Regenerative Farming"
+]
+
 
 
   return (
