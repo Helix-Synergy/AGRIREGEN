@@ -7,7 +7,7 @@ const Orators = () => {
   return (
     <div className="flex flex-col px-4 md:px-12 py-8 items-center justify-center my-8">
       <h1 className="text-2xl text-black md:text-3xl font-bold text-center">
-        AGRIREGEN- Orators
+        AGRIREGEN-Orators
       </h1>
   
 

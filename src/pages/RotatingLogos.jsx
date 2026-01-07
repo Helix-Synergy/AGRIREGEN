@@ -89,7 +89,7 @@ export const tracks = [
     title: "Agroecology",
     description: (
       <>
-      This track delves intoThis track delves into{" "}
+      This track delves into {" "}
         <Link
           to="/" 
           className="hover:text-accent hover:decoration-accent
@@ -213,7 +213,7 @@ This track explores how IoT devices and advanced sensor networks enable regenera
     title: "MRV Tools & Climate-Smart Agriculture",
     description: (
       <>
-      This track highlights MRV tools for climate-smart agriculture. Explore methods to measure, report, and verify emissions and outcomes using digital platforms, remote sensing, and data analytics—enabling transparency, credible carbon accounting, informed decision-making, and scalable adoption of sustainable farming practices.{" "}
+      This track highlights MRV tools for climate-smart agriculture. Explore methods to measure, report, and verify emissions and outcomes using digital platforms, remote sensing, and data analytics enabling transparency, credible carbon accounting, informed decision-making, and scalable adoption of sustainable farming practices.{" "}
         {/* <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
@@ -274,7 +274,7 @@ This track explores how IoT devices and advanced sensor networks enable regenera
              transition-colors duration-300"
         >
        plant–microbiome engineering
-        </Link> to enhance crop performance and resilience. Learn how beneficial microbes, root interactions, and biological innovations improve nutrient uptake, stress tolerance, disease resistance, and soil health—unlocking new pathways for sustainable and regenerative agriculture.
+        </Link> to enhance crop performance and resilience. Learn how beneficial microbes, root interactions, and biological innovations improve nutrient uptake, stress tolerance, disease resistance, and soil health unlocking new pathways for sustainable and regenerative agriculture.
         
       </>
     ),
