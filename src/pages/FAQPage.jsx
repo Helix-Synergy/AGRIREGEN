@@ -179,7 +179,7 @@ const Faq = () => {
             <span className="text-xl">{openIndex === index ? "−" : "+"}</span>
           </button>
           {openIndex === index && (
-            <div className="px-4 pb-4 text-gray-700">{item.answer}</div>
+            <div className="px-4 pb-4 text-gray-700 text-justify">{item.answer}</div>
           )}
         </div>
       ))}

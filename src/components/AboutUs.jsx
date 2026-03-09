@@ -32,7 +32,7 @@ const AboutUs = () => {
           <span className="text-one">Advancing Global Leadership  </span>{" "}
           in Regenerative Agritech
         </h1>
-        <p className="text-base my-2">
+        <p className="text-base my-2 text-justify">
           Welcome to the premier global platform for  <Link to="/Agrigegen-orators" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">Regenerative AgriTech Forum </Link> Our international summits convene leading experts and decision-makers driving advancements in regenerative agriculture, agri-biotechnology, soil health, climate-resilient farming, and sustainable food systems.. The Regenerative Agritech Forum brings together researchers, agronomists, agri-tech innovators, policymakers, industry leaders, and sustainability professionals to address critical challenges and opportunities shaping the future of global agriculture.{" "}
@@ -42,7 +42,7 @@ const AboutUs = () => {
             to="https://helixconferences.com/blog.php"
           ></Link>{" "}
         </p>
-        <p>“Transforming Agriculture and Food Systems Through Regenerative Agritech Innovation”</p>
+        <p className="text-justify">“Transforming Agriculture and Food Systems Through Regenerative Agritech Innovation”</p>
         <Link to="/about-Agrigegen-conclave" >
           <button className="flex bg-one text-white px-6 md:px-8 py-2 my-4 rounded-full text-sm md:text-base">
             Know More

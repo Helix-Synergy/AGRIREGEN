@@ -136,7 +136,7 @@ const AboutPublicHealth = () => {
       {data.event.description.map((desc, idx) => (
         <p
           key={idx}
-          className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+          className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
         >
           {desc}
         </p>
@@ -150,7 +150,7 @@ const AboutPublicHealth = () => {
         {data.join.map((para, idx) => (
           <p
             key={idx}
-            className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+            className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
           >
             {para.text} <Link to={para.link}>{para.linkText}</Link>
             {para.suffix}

@@ -251,8 +251,8 @@ const Navbar = () => {
               key={index}
               to={item.link}
               className={`hover-underline-animation text-gray-700 hover:text-one transition ${location.pathname === item.link
-                ? "border-slate-700"
-                : "border-transparent"
+                ? "text-one font-semibold border-b-2 border-one"
+                : "border-b-2 border-transparent"
                 }`}
               style={{
                 marginRight: scrolled ? "0px" : "4px",
@@ -297,7 +297,7 @@ const Navbar = () => {
             <Link
               key={index}
               to={item.link}
-              className="block text-sm text-gray-800 hover:text-accent transition ml-8"
+              className={`block text-sm transition ml-8 ${location.pathname === item.link ? "text-one font-semibold" : "text-gray-800 hover:text-accent"}`}
               onClick={() => setIsOpen(false)}
             >
               {item.name}

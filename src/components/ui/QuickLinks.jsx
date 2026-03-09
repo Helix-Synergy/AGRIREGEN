@@ -26,13 +26,13 @@ const links = [
     id: 'brochure-download',
     icon: Download,
     label: 'Brochure download',
-    link: '/AGRIREGEN.pdf'
+    link: '/2027-AGRIREGEN.pdf'
   },
   {
     id: 'event-schedule',
     icon: CalendarCheck,
     label: 'Schedule',
-    link:"/Agrigegen-event-schedule"
+    link: "/Agrigegen-event-schedule"
   },
   {
     id: 'faq',
@@ -51,9 +51,8 @@ const QuickLinks = () => {
         const isActive = hoveredId === id;
         const href = path || link;
 
-        const classes = `flex items-center bg-white shadow-md rounded-l-full overflow-hidden transform transition-all duration-300 ${
-          isActive ? 'translate-x-0' : 'translate-x-40'
-        } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`;
+        const classes = `flex items-center bg-white shadow-md rounded-l-full overflow-hidden transform transition-all duration-300 ${isActive ? 'translate-x-0' : 'translate-x-40'
+          } ${id === 'mobile' ? 'animate-pulseShadow' : ''}`;
 
         // ✅ Only brochure uses <a>
         if (id === 'brochure-download') {
