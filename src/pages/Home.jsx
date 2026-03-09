@@ -20,7 +20,7 @@ const Home = () => {
 
             <div className="flex flex-col justify-center items-start leading-tight">
               <p className="text-base md:text-lg font-bold text-lightGreen">
-                23-24 | 2026
+                26-27 | 2027
               </p>
               <p className="text-base md:text-lg font-bold text-lightGreen">
                 Barcelona | Spain
@@ -33,7 +33,7 @@ const Home = () => {
           </h1>
 
           <p className="text-2xl md:text-5xl text-accent">
-          AGRIREGEN-2026
+          AGRIREGEN-2027
           </p>
 
           <div className="float-end mt-4">

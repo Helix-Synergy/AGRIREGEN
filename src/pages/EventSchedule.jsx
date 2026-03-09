@@ -6,7 +6,7 @@ import Sche from "../assets/Images1/Sche.png";
 const Schedule = () => {
   return (
     <section className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
-      
+
       {/* Banner Section (CLONED) */}
       <div
         className={`${banner_style} w-full mx-auto schedule-banner`}
@@ -17,7 +17,7 @@ const Schedule = () => {
         }}
       >
         <h1 className="text-white text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-        AGRIREGEN  - 2026
+          AGRIREGEN  - 2027
         </h1>
       </div>
 

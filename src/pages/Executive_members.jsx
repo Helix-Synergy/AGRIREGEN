@@ -9,17 +9,17 @@ const Executive_members = () => {
   return (
     <section className="cw-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
       {/* Banner Section */}
-    <div
-  className={`${banner_style} mx-auto text-one executive-panel-banner w-full`}
-  style={{
-    backgroundImage: `url(${page})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-  }}
->
+      <div
+        className={`${banner_style} mx-auto text-one executive-panel-banner w-full`}
+        style={{
+          backgroundImage: `url(${page})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <h1 className=" text-white text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-        AGRIREGEN - Panel Members
+          AGRIREGEN - Panel Members
         </h1>
       </div>
 
@@ -29,7 +29,7 @@ const Executive_members = () => {
           Meet Our Distinguished Panel Members
         </h2>
         <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
- Leading innovators, researchers, and industry experts from around the world sharing knowledge and driving the future of regenerative agriculture and agritech at AGRIREGEN-2026.
+          Leading innovators, researchers, and industry experts from around the world sharing knowledge and driving the future of regenerative agriculture and agritech at AGRIREGEN-2027.
         </p>
       </div>
 

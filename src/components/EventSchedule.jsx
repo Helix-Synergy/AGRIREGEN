@@ -51,17 +51,16 @@ const EventSchedule = ({ height, name, link }) => {
       <p className="text-3xl font-semibold text-black">Event Schedule</p>
 
       {/* Day selection buttons */}
-    <div className="flex flex-wrap justify-center gap-4 my-6  bg-one/20 h-auto p-4 rounded-2xl shadow-lg backdrop-blur-sm">
+      <div className="flex flex-wrap justify-center gap-4 my-6  bg-one/20 h-auto p-4 rounded-2xl shadow-lg backdrop-blur-sm">
 
         {[1, 2].map((day) => (
           <button
             key={day}
             onClick={() => setSelectedDay(day)}
-            className={`flex items-center gap-3 px-4 py-2 rounded-full border border-accent/40 text-xs md:text-sm font-medium shadow-[0_4px_20px_rgba(0,0,0,0.1)] transition-all duration-300 ${
-              selectedDay === day
+            className={`flex items-center gap-3 px-4 py-2 rounded-full border border-accent/40 text-xs md:text-sm font-medium shadow-[0_4px_20px_rgba(0,0,0,0.1)] transition-all duration-300 ${selectedDay === day
                 ? "bg-one text-white"
                 : "bg-transparent text-accent hover:scale-105 hover:shadow-[0_6px_24px_rgba(0,0,0,0.15)]"
-            }`}
+              }`}
           >
             <h1 className="bg-white text-black px-3 py-1 rounded-md font-semibold shadow-sm">
               Day {day}
@@ -69,11 +68,11 @@ const EventSchedule = ({ height, name, link }) => {
             <p className="text-base md:text-lg font-semibold text-white drop-shadow-sm">
               {day === 1 ? (
                 <>
-                  23<sup></sup> April 2026
+                  26<sup></sup> April 2027
                 </>
               ) : (
                 <>
-                  24<sup></sup> April 2026
+                  27<sup></sup> April 2027
                 </>
               )}
             </p>
@@ -105,11 +104,11 @@ const EventSchedule = ({ height, name, link }) => {
         ) : (
           <Link>
           {/* // <Link to={link}> */}
-            <button className="bg-one text-white px-10 md:px-10 py-2 rounded-full mt-10 text-sm md:text-base hover:bg-accent transition">
-              Download
-            </button>
-          {/* </Link> */}
-       {/* ))} } */}
+      <button className="bg-one text-white px-10 md:px-10 py-2 rounded-full mt-10 text-sm md:text-base hover:bg-accent transition">
+        Download
+      </button>
+      {/* </Link> */}
+      {/* ))} } */}
     </div>
   );
 };

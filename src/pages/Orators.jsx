@@ -8,16 +8,16 @@ const Orators = () => {
   return (
     <section className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
       {/* Banner Section */}
- <div
-  className={`${banner_style} w-full mx-auto orators-banner`}
-  style={{
-    backgroundImage: `url(${orators1})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
->
+      <div
+        className={`${banner_style} w-full mx-auto orators-banner`}
+        style={{
+          backgroundImage: `url(${orators1})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <h1 className="text-slate-100 text-shadow text-one text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-       AGRIREGEN - Orators
+          AGRIREGEN - Orators
         </h1>
       </div>
 
@@ -27,7 +27,7 @@ const Orators = () => {
           Meet Our Distinguished Orators
         </h2>
         <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
-        International experts and agritech pioneers sharing transformative insights at AGRIREGEN-2026.
+          International experts and agritech pioneers sharing transformative insights at AGRIREGEN-2027.
         </p>
       </div>
 

@@ -1,31 +1,31 @@
 import React, { useState } from "react";
 
 const faqLinks = {
-  tracks:"/Agrigegen-conference-tracks/",
+  tracks: "/Agrigegen-conference-tracks/",
   abstractSubmission: "/abstract-submission",
-  schedule:"/Agrigegen-event-schedule" ,
+  schedule: "/Agrigegen-event-schedule",
   email: "mailto:hello@helixconferences.com",
 
 };
 
 export const faqData = [
   {
-    question: "What is AGRIREGEN-2026?",
+    question: "What is AGRIREGEN-2027?",
     answer:
-      "AGRIREGEN-2026, officially titled the “Regenerative AgriTech Forum”, is a premier international conference organized by Helix Conferences. It brings together agritech innovators, regenerative agriculture experts, researchers, policy makers, and industry leaders to discuss sustainable farming, soil health, climate-smart agriculture, agri-biotech, and future food systems.",
+      "AGRIREGEN-2027, officially titled the “Regenerative AgriTech Forum”, is a premier international conference organized by Helix Conferences. It brings together agritech innovators, regenerative agriculture experts, researchers, policy makers, and industry leaders to discuss sustainable farming, soil health, climate-smart agriculture, agri-biotech, and future food systems.",
   },
   {
-    question: "When and where will AGRIREGEN-2026 take place?",
+    question: "When and where will AGRIREGEN-2027 take place?",
     answer:
-      "AGRIREGEN-2026 will be held on Apr 23–24, 2026, in Barcelona, Spain.",
+      "AGRIREGEN-2027 will be held on Apr 26–27, 2027, in Barcelona, Spain.",
   },
   {
-    question: "What are the highlights of AGRIREGEN-2026?",
+    question: "What are the highlights of AGRIREGEN-2027?",
     answer:
       "Keynote presentations, expert-led technical sessions, regenerative agriculture case studies, agri-innovation showcases, panel discussions, and global networking opportunities.",
   },
   {
-    question: "What conference tracks are featured at AGRIREGEN-2026?",
+    question: "What conference tracks are featured at AGRIREGEN-2027?",
     answer: (
       <>
         You can explore the full list of tracks here:{" "}
@@ -35,7 +35,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          AGRIREGEN-2026 Tracks
+          AGRIREGEN-2027 Tracks
         </a>
         .
       </>
@@ -55,7 +55,7 @@ export const faqData = [
     ),
   },
   {
-    question: "How can I submit an abstract for AGRIREGEN-2026?",
+    question: "How can I submit an abstract for AGRIREGEN-2027?",
     answer: (
       <>
         You can submit your abstract{" "}
@@ -87,14 +87,14 @@ export const faqData = [
       "Oral presentations are typically 15–20 minutes long, including Q&A. Final presentation guidelines will be shared after abstract acceptance.",
   },
   {
-    question: "Who will be attending AGRIREGEN-2026?",
+    question: "Who will be attending AGRIREGEN-2027?",
     answer:
       "Agritech professionals, regenerative agriculture experts, farmers, researchers, sustainability leaders, policymakers, investors, and academicians from around the world.",
   },
   {
     question: "How many people usually attend the forum?",
     answer:
-      "AGRIREGEN-2026 is expected to host 100+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
+      "AGRIREGEN-2027 is expected to host 100+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
   },
   {
     question: "Can I register for multiple speaking sessions?",

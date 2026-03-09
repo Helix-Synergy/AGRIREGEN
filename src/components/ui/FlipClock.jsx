@@ -49,8 +49,8 @@ const FlipClock = () => {
     return () => window.removeEventListener('resize', updateStyles);
   }, []);
 
-  // Set countdown to August 7 of the current year
-  const targetDate = new Date(new Date().getFullYear(), 3, 23); 
+  // Set countdown to April 26, 2027
+  const targetDate = new Date(2027, 3, 26);
 
   return (
     <div className="md:w-full md:p-2 rounded-xl flex items-center justify-center">
