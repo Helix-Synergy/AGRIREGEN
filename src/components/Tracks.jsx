@@ -20,7 +20,7 @@ const TracksSection = () => {
           >
             <img
               src={icon}
-              alt=""
+              alt="Tracks"
               className="h-8 w-8 object-contain shrink-0"
               loading="lazy"
             />

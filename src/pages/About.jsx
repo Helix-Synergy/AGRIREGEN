@@ -124,9 +124,9 @@ const AboutPublicHealth = () => {
         </h1>
       </div>
 
-      <h1 className="text-4xl mt-2 font-bold text-one">
+      <h2 className="text-4xl mt-2 font-bold text-one">
    Fostering Collaboration Driving Sustainable Agricultural Impact
-      </h1>
+      </h2>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
           23<sup></sup> - 24<sup></sup> April 2026
