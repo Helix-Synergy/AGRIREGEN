@@ -30,7 +30,7 @@ const Footer = () => {
 
           />
           <br />
-        <p style={{}}>
+        <p style={{textAlign: "center", marginLeft:"-19px"}} className="text-sm sm:text-base text-white">
    “Advancing Research into Regenerative Action”
         </p>
        
