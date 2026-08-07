@@ -2,49 +2,49 @@ import React, { useEffect, useState } from "react";
 import { Sparkle } from "lucide-react";
 import { Link } from "react-router-dom";
 // Importing the images
-// import Microbial from "../assets/tracks/Microbial.jpg";
-// import Microbiome from "../assets/tracks/Microbime-Engineering.jpg"
-// import HostMicrobe  from "../assets/tracks/Host–Microbe.jpg";
-// import Metabolites from "../assets/tracks/Metabo.jpg"
-// import FoodSecurity from "../assets/tracks/Foodbrone Microbial.jpg";
-// import FoodSpoil from "../assets/tracks/Food Spoilage.jpg"
-// import Bio from "../assets/tracks/Biopreservation-Microbes.jpg";
-// import Ecology from "../assets/tracks/Ecology.jpg"
-// import GutFood from "../assets/tracks/Gut.jpg";
-// import Personal from "../assets/tracks/Personalized Nutrition.jpg"
-// import Soil from "../assets/tracks/Soil & Plant Microbiomes.jpg";
-// import Sustainable from "../assets/tracks/Susbistanle.jpg"
+// import Microbial from "../assets/tracks/Microbial.webp";
+// import Microbiome from "../assets/tracks/Microbime-Engineering.webp"
+// import HostMicrobe  from "../assets/tracks/Host–Microbe.webp";
+// import Metabolites from "../assets/tracks/Metabo.webp"
+// import FoodSecurity from "../assets/tracks/Foodbrone Microbial.webp";
+// import FoodSpoil from "../assets/tracks/Food Spoilage.webp"
+// import Bio from "../assets/tracks/Biopreservation-Microbes.webp";
+// import Ecology from "../assets/tracks/Ecology.webp"
+// import GutFood from "../assets/tracks/Gut.webp";
+// import Personal from "../assets/tracks/Personalized Nutrition.webp"
+// import Soil from "../assets/tracks/Soil & Plant Microbiomes.webp";
+// import Sustainable from "../assets/tracks/Susbistanle.webp"
 // import Processing from "../assets/tracks/Proceesig-Technologies.webp";
-// import Circular from "../assets/tracks/Circular Bioeconomy.jpg"
-// import Foodborne from "../assets/tracks/Foodbrone Microbial.jpg";
-// import Prebiotics from "../assets/tracks/Prebiotics.jpg"
-// import Fermented from "../assets/tracks/Feremented.jpg"
+// import Circular from "../assets/tracks/Circular Bioeconomy.webp"
+// import Foodborne from "../assets/tracks/Foodbrone Microbial.webp";
+// import Prebiotics from "../assets/tracks/Prebiotics.webp"
+// import Fermented from "../assets/tracks/Feremented.webp"
 // import Ethical from "../assets/tracks/Ethical.webp";
-// import MicrobiomeEng from "../assets/tracks/Microbime-Engineering.jpg"
+// import MicrobiomeEng from "../assets/tracks/Microbime-Engineering.webp"
 // import Quorum from "../assets/tracks/Quorum.avif"
 
 
 // Images for agri
-import Para from "../assets/tracks/Paradigms of regeneration agriculture.jpg";
-import Carbon from "../assets/tracks/Microbime-Engineering.jpg"
-import Agroecology from "../assets/tracks/Agroecology.jpg";
-import Biodiversity from "../assets/tracks/biodiversity.jpg";
-import Pre from "../assets/tracks/precision.jpg";
-import Ai from "../assets/tracks/AI remote sensing &gis for soil crop.jpg"
-import iot from "../assets/tracks/IOT &sensor network for regenerative farming.jpg";
-import Robotics from "../assets/tracks/robotics&automation for low impact farming.jpg"
-import Carbon1 from "../assets/tracks/carbon sequestration.jpg";
-import MRV from "../assets/tracks/MRV tools & climate smart agriculture.jpg"
-import Biochar from "../assets/tracks/Biochar composting & biological amendments.jpg";
-import Micro from "../assets/tracks/micro catchments drip optimisation & hydrology mapping.jpg"
-import Plant from "../assets/tracks/plant microbiome engineering.jpg";
-import Bio1 from "../assets/tracks/biofertilisers ,biostimulants &mycorrhizal innovation.jpg"
-import Rege from "../assets/tracks/Regenerative pest management.jpg";
-import RegenerativeHorticulture from "../assets/tracks/Rengenerative Horticulture, Agroforesty& polyculture system.jpg"
-import Livestock from "../assets/tracks/Livestock integration holistic grazing &manure circularity.jpg"
-import WastetoValue from "../assets/tracks/waste to value innovations in farms.jpg";
-import RegenerativeSupply from "../assets/tracks/Regenerative supply chain& market incentives.jpg"
-import Certification from "../assets/tracks/certification framework for regenerative farming.jpg"
+import Para from "../assets/tracks/Paradigms of regeneration agriculture.webp";
+import Carbon from "../assets/tracks/Microbime-Engineering.webp"
+import Agroecology from "../assets/tracks/Agroecology.webp";
+import Biodiversity from "../assets/tracks/biodiversity.webp";
+import Pre from "../assets/tracks/precision.webp";
+import Ai from "../assets/tracks/AI remote sensing &gis for soil crop.webp"
+import iot from "../assets/tracks/IOT &sensor network for regenerative farming.webp";
+import Robotics from "../assets/tracks/robotics&automation for low impact farming.webp"
+import Carbon1 from "../assets/tracks/carbon sequestration.webp";
+import MRV from "../assets/tracks/MRV tools & climate smart agriculture.webp"
+import Biochar from "../assets/tracks/Biochar composting & biological amendments.webp";
+import Micro from "../assets/tracks/micro catchments drip optimisation & hydrology mapping.webp"
+import Plant from "../assets/tracks/plant microbiome engineering.webp";
+import Bio1 from "../assets/tracks/biofertilisers ,biostimulants &mycorrhizal innovation.webp"
+import Rege from "../assets/tracks/Regenerative pest management.webp";
+import RegenerativeHorticulture from "../assets/tracks/Rengenerative Horticulture, Agroforesty& polyculture system.webp"
+import Livestock from "../assets/tracks/Livestock integration holistic grazing &manure circularity.webp"
+import WastetoValue from "../assets/tracks/waste to value innovations in farms.webp";
+import RegenerativeSupply from "../assets/tracks/Regenerative supply chain& market incentives.webp"
+import Certification from "../assets/tracks/certification framework for regenerative farming.webp"
 
 export const tracks = [
   {
